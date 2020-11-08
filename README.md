@@ -1,7 +1,10 @@
-<img src="docs/assets/logo.svg" height="128px" />
+<p align="center">
+  <img src="docs/assets/logo.svg" height="128px" />
+</p>
 
-# ironc
+<h1 align="center">The Iron Programming Language</h1>
+<p align="center">
+<img src="https://github.com/ironlang/ironc/workflows/Rust/badge.svg" alt="Rust" />
+</p>
 
-![Rust](https://github.com/ironlang/ironc/workflows/Rust/badge.svg)
-
-This repository contains `ironc`, the Iron compiler.
+> **Iron is a programming language for building secure and scalable systems.** This repository contains the source code for the Iron compiler, `ironc`, which is composed of various modules currently written in Rust.
