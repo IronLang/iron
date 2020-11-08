@@ -1,0 +1,2 @@
+// A sequence of 8 bits.
+type Byte = U8;
