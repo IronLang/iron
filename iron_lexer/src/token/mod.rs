@@ -11,7 +11,7 @@ pub use kind::TokenKind;
 /// in its `kind` attribute.
 #[derive(Debug, PartialEq, Eq)]
 pub struct Token {
-    kind: TokenKind,
+    pub kind: TokenKind,
     start: Coordinate,
     end: Coordinate,
 }

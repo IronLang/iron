@@ -1,0 +1,9 @@
+[package]
+name = "iron_parser"
+version = "0.1.0"
+authors = ["Samuel Roth <samuel.roth@vita.dev>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.3"
+iron_lexer = { path = "../iron_lexer" }

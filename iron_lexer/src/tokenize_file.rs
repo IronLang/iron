@@ -1,7 +1,4 @@
-use super::{
-    super::{token::Token, Error},
-    into_tokens::IntoTokens,
-};
+use super::{error::Error, into_tokens::IntoTokens, token::Token};
 use std::fs;
 
 /// Tokenize the contents of a file located at some `path`.

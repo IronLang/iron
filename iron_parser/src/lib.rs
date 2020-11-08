@@ -1,11 +1,7 @@
-mod error;
-mod lexer;
-mod token;
+extern crate iron_lexer;
 
+use iron_lexer::{Error, Token};
 use std::str::FromStr;
-use token::Token;
-
-pub use error::Error;
 
 /// An Iron module.
 ///
@@ -35,7 +31,7 @@ impl FromStr for Module {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         let path = String::from(s);
 
-        match lexer::tokenize_file(s) {
+        match iron_lexer::tokenize_file(s) {
             Ok(tokens) => Ok(Module { path, tokens }),
             Err(err) => Err(err),
         }

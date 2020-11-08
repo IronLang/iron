@@ -1,9 +1,8 @@
 extern crate clap;
-
-mod module;
+extern crate iron_parser;
 
 use clap::{App, Arg};
-use module::Module;
+use iron_parser::Module;
 use std::str::FromStr;
 
 fn main() {

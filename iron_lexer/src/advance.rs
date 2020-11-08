@@ -1,4 +1,4 @@
-use super::super::token::{Coordinate, Token, TokenKind};
+use super::token::{Coordinate, Token, TokenKind};
 
 /// Adds a new token to `result`, and advances the `position` based on the size of the `TokenKind`.
 pub fn advance(kind: TokenKind, result: &mut Vec<Token>, position: &mut Coordinate) {

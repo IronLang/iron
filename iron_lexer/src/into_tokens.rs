@@ -1,14 +1,31 @@
 use super::{
-    super::{
-        token::{Coordinate, Token, TokenKind},
-        Error,
-    },
     advance::advance,
-    into_tokens::IntoTokens,
+    error::Error,
+    token::{Coordinate, Token, TokenKind},
 };
+
+/// Enables some type to be represented as a vector of `Token` values.
+pub trait IntoTokens {
+    fn into_tokens(&self) -> Result<Vec<Token>, Error>;
+}
 
 impl IntoTokens for String {
     /// Tokenizes the contents of a `String`.
+    ///
+    /// # Examples
+    ///
+    /// ```rust
+    /// use iron_lexer::{IntoTokens, TokenKind};
+    ///
+    /// let result = String::from("!@#").into_tokens();
+    /// let mut tokens = result.expect("String should be tokenized successfully.");
+    ///
+    /// assert_eq!(tokens.pop().unwrap().kind, TokenKind::Octothorpe);
+    /// assert_eq!(tokens.pop().unwrap().kind, TokenKind::At);
+    /// assert_eq!(tokens.pop().unwrap().kind, TokenKind::Exclamation);
+    /// assert_eq!(tokens.pop(), None);
+    /// ```
+    ///
     fn into_tokens(&self) -> Result<Vec<Token>, Error> {
         if !self.is_ascii() {
             return Err(Error::UnsupportedCharacterEncoding);

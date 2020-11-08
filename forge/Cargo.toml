@@ -1,0 +1,11 @@
+[package]
+name = "forge"
+version = "0.1.0"
+authors = ["Samuel Roth <samuel.roth@vita.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+iron_parser = { path = "../iron_parser" }

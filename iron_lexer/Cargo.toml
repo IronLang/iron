@@ -1,0 +1,7 @@
+[package]
+name = "iron_lexer"
+version = "0.1.0"
+authors = ["Samuel Roth <samuel.roth@vita.dev>"]
+edition = "2018"
+
+[dependencies]
