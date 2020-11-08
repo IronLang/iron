@@ -59,6 +59,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "iron_codegen"
+version = "0.1.0"
+
+[[package]]
 name = "iron_lexer"
 version = "0.1.0"
 

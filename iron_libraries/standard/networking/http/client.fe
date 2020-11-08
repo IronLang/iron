@@ -1,0 +1,4 @@
+// An HTTP client.
+public type Client = {
+	transport: Transport
+}

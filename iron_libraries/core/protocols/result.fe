@@ -1,0 +1,4 @@
+public type Result<T, E> = {
+	success(T)
+	error(E)
+}

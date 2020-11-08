@@ -1,0 +1,9 @@
+public type Request {
+	body          Body
+	contentLength U64
+	header        Header
+	host          String
+	method        Method
+	url           &URL
+	version       Version
+}

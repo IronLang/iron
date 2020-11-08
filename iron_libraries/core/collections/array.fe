@@ -1,0 +1,10 @@
+@derive(ExpressableWithArrayLiteral)
+public type Array<T> {
+	items: 
+}
+
+implement Array<T> {
+	function map<U>(_ fn: Function<T, U>): Array<U> {
+		
+	}
+}

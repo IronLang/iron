@@ -1,0 +1,49 @@
+public type (
+	// A signed integer type with 8 bits of storage.
+	@derive(ExpressableWithI8Literal)
+	I8
+
+	// A signed integer type with 16 bits of storage.
+	@derive(ExpressableWithI16Literal)
+	I16
+
+	// A signed integer type with 32 bits of storage.
+	@derive(ExpressableWithI32Literal)
+	I32
+
+	// A signed integer type with 64 bits of storage.
+	@derive(ExpressableWithI64Literal)
+	I64
+
+	// A signed integer type with 128 bits of storage.
+	@derive(ExpressableWithI128Literal)
+	I128
+
+	// A signed integer type with size determined by underlying architecture.
+	@derive(ExpressableWithIntLiteral)
+	Int
+
+	// An unsigned integer type with 8 bits of storage.
+	@derive(ExpressableWithU8Literal)
+	U8
+
+	// An unsigned integer type with 8 bits of storage.
+	@derive(ExpressableWithU16Literal)
+	U16
+
+	// An unsigned integer type with 8 bits of storage.
+	@derive(ExpressableWithU32Literal)
+	U32
+
+	// An unsigned integer type with 8 bits of storage.
+	@derive(ExpressableWithU64Literal)
+	U64
+
+	// An unsigned integer type with 8 bits of storage.
+	@derive(ExpressableWithU128Literal)
+	U128
+
+	// An unsigned integer type with size determined by underlying architecture.
+	@derive(ExpressableWithUIntLiteral)
+	UInt 
+)

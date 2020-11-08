@@ -1,0 +1,4 @@
+public type Option<T> {
+	some(T)
+	none
+}
