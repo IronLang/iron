@@ -1,0 +1,48 @@
+import super::Signal
+
+public function (
+	// A logical NOT gate.
+	not(i0: Signal): Signal {
+		match i0 {
+			.high => .low,
+			.low => .high
+		}
+	}
+
+	// A logical AND gate.
+	and(i0: Signal, i1: Signal): Signal {
+		match i0 {
+			.high => match i1 {
+				.high => .high,
+				.low => .low,
+			},
+			.low => .low
+		}
+	}
+
+	// A logical OR gate.
+	or(i0: Signal, i1: Signal): Signal {
+		match i0 {
+			.high => .high,
+			.low => match i1 {
+				.high => .high,
+				.low => .low,
+			},
+		}
+	}
+
+	// A logical XOR gate.
+	xor(i0: Signal, i1: Signal): Signal {
+		if i0 == i1 {
+			.low
+		} else {
+			.high
+		}
+	}
+
+	// A logical NAND gate.
+	nand(i0: Signal, i1: Signal): Signal => not(and(i0, i1))
+
+	// A logical NOR gate.
+	nor(i0: Signal, i1: Signal): Signal => not(or(i0, i1))
+)

@@ -1,0 +1,15 @@
+public type Instruction = {
+	// The `mov` instruction _copies_ the `src` operand into the `dest` operand.
+	//
+	// After this operation is completed, both `src` and `dest` contain the same contents.
+	mov(Source, Destination),
+
+	// The `xchg` instruction _swaps_ the values of the `src` and `dest` operands.
+	//
+	// It is similar to doing a three-step swap, but this instruction does not require a register
+	// for temporary storage of an intermediate value.
+	xchg(Source, Destination),
+
+	// The `cmpxchg` instruction ...
+	cmpxchg(Arg1, Arg2)
+}
