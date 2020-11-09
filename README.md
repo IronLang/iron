@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="docs/assets/logo.svg" height="128px" />
-</p>
+<img src="docs/assets/logo.svg" alt="Iron logo" height="128px">
 
-<h1 align="center">The Iron Programming Language</h1>
+# The Iron Programming Language
 
 [![Rust](https://github.com/ironlang/iron/workflows/Rust/badge.svg)](https://github.com/ironlang/iron/actions?query=workflow%3ARust)
 [![Discord](https://img.shields.io/discord/745404935193231372?color=blueviolet&label=Discord&logo=discord&logoColor=white)](https://discord.gg/REZTE6T)
