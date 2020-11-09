@@ -1,0 +1,9 @@
+public function print {
+	(_ line: String) {
+		// todo
+	}
+
+	(line: String) {
+		// todo
+	}
+}

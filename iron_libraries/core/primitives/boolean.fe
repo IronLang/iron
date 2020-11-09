@@ -1,0 +1,7 @@
+// A value that can either be `true` or `false`.
+@derive(ExpressableWithBooleanLiteral)
+public type Boolean {
+	true
+	false
+}
+

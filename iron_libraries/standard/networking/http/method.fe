@@ -1,0 +1,39 @@
+import standard::As
+
+// HTTP request method.
+public type Method = {
+	get
+	head
+	post
+	put
+	delete
+	connect
+	options
+	trace
+	patch
+}
+
+implement As<String> for Method {
+	// Renders the HTTP `Method` as a `String`.
+	//
+	// ```iron
+	// import io
+	// import http::Method
+	//
+	// let method: Method = .GET
+	// io.print(method) // prints "GET"
+	// ```
+	function as<String>(self: Self): String {
+		match self {
+			.get => "GET",
+			.head => "HEAD",
+			.post => "POST",
+			.put => "PUT",
+			.delete => "DELETE",
+			.connect => "CONNECT",
+			.options => "OPTIONS",
+			.trace => "TRACE",
+			.patch => "PATCH"
+		}
+	}
+}

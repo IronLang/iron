@@ -1,0 +1,970 @@
+Ok(
+    Module {
+        path: "examples/tokens.fe",
+        tokens: [
+            Token {
+                kind: Ampersand,
+                start: Coordinate {
+                    row: 0,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 1,
+                },
+            },
+            Token {
+                kind: AngleClose,
+                start: Coordinate {
+                    row: 0,
+                    col: 1,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 2,
+                },
+            },
+            Token {
+                kind: AngleOpen,
+                start: Coordinate {
+                    row: 0,
+                    col: 2,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 3,
+                },
+            },
+            Token {
+                kind: Asterisk,
+                start: Coordinate {
+                    row: 0,
+                    col: 3,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 4,
+                },
+            },
+            Token {
+                kind: At,
+                start: Coordinate {
+                    row: 0,
+                    col: 4,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 5,
+                },
+            },
+            Token {
+                kind: Backslash,
+                start: Coordinate {
+                    row: 0,
+                    col: 5,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 6,
+                },
+            },
+            Token {
+                kind: Backtick,
+                start: Coordinate {
+                    row: 0,
+                    col: 6,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 7,
+                },
+            },
+            Token {
+                kind: Bar,
+                start: Coordinate {
+                    row: 0,
+                    col: 7,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 8,
+                },
+            },
+            Token {
+                kind: BraceClose,
+                start: Coordinate {
+                    row: 0,
+                    col: 8,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 9,
+                },
+            },
+            Token {
+                kind: BraceOpen,
+                start: Coordinate {
+                    row: 0,
+                    col: 9,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 10,
+                },
+            },
+            Token {
+                kind: BracketClose,
+                start: Coordinate {
+                    row: 0,
+                    col: 10,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 11,
+                },
+            },
+            Token {
+                kind: BracketOpen,
+                start: Coordinate {
+                    row: 0,
+                    col: 11,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 12,
+                },
+            },
+            Token {
+                kind: Caret,
+                start: Coordinate {
+                    row: 0,
+                    col: 12,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 13,
+                },
+            },
+            Token {
+                kind: Colon,
+                start: Coordinate {
+                    row: 0,
+                    col: 13,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 14,
+                },
+            },
+            Token {
+                kind: Cross,
+                start: Coordinate {
+                    row: 0,
+                    col: 14,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 15,
+                },
+            },
+            Token {
+                kind: Dash,
+                start: Coordinate {
+                    row: 0,
+                    col: 15,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 16,
+                },
+            },
+            Token {
+                kind: Exclamation,
+                start: Coordinate {
+                    row: 0,
+                    col: 16,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 17,
+                },
+            },
+            Token {
+                kind: Octothorpe,
+                start: Coordinate {
+                    row: 0,
+                    col: 17,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 18,
+                },
+            },
+            Token {
+                kind: ParenClose,
+                start: Coordinate {
+                    row: 0,
+                    col: 18,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 19,
+                },
+            },
+            Token {
+                kind: ParenOpen,
+                start: Coordinate {
+                    row: 0,
+                    col: 19,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 20,
+                },
+            },
+            Token {
+                kind: QuoteSingle,
+                start: Coordinate {
+                    row: 0,
+                    col: 20,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 21,
+                },
+            },
+            Token {
+                kind: QuoteDouble,
+                start: Coordinate {
+                    row: 0,
+                    col: 21,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 22,
+                },
+            },
+            Token {
+                kind: QuoteDouble,
+                start: Coordinate {
+                    row: 0,
+                    col: 22,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 23,
+                },
+            },
+            Token {
+                kind: Semicolon,
+                start: Coordinate {
+                    row: 0,
+                    col: 23,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 24,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 0,
+                    col: 24,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 25,
+                },
+            },
+            Token {
+                kind: Tab,
+                start: Coordinate {
+                    row: 0,
+                    col: 25,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 26,
+                },
+            },
+            Token {
+                kind: Tilde,
+                start: Coordinate {
+                    row: 0,
+                    col: 26,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 27,
+                },
+            },
+            Token {
+                kind: Underscore,
+                start: Coordinate {
+                    row: 0,
+                    col: 27,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 28,
+                },
+            },
+            Token {
+                kind: Dot,
+                start: Coordinate {
+                    row: 0,
+                    col: 28,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 29,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 0,
+                    col: 29,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: AndEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 2,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 2,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 3,
+                },
+            },
+            Token {
+                kind: ArrowThin,
+                start: Coordinate {
+                    row: 1,
+                    col: 3,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 5,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 5,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 6,
+                },
+            },
+            Token {
+                kind: ArrowWide,
+                start: Coordinate {
+                    row: 1,
+                    col: 6,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 8,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 8,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 9,
+                },
+            },
+            Token {
+                kind: CaretEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 9,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 11,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 11,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 12,
+                },
+            },
+            Token {
+                kind: DivEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 12,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 14,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 14,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 15,
+                },
+            },
+            Token {
+                kind: EqualEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 15,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 17,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 17,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 18,
+                },
+            },
+            Token {
+                kind: MinusEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 18,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 20,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 20,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 21,
+                },
+            },
+            Token {
+                kind: ModuloEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 21,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 23,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 23,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 24,
+                },
+            },
+            Token {
+                kind: OrEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 24,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 26,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 26,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 27,
+                },
+            },
+            Token {
+                kind: PlusEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 27,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 29,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 29,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 30,
+                },
+            },
+            Token {
+                kind: LessThanEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 30,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 32,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 32,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 33,
+                },
+            },
+            Token {
+                kind: GreaterThanEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 33,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 35,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 35,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 36,
+                },
+            },
+            Token {
+                kind: Scope,
+                start: Coordinate {
+                    row: 1,
+                    col: 36,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 37,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 37,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 38,
+                },
+            },
+            Token {
+                kind: NotEqual,
+                start: Coordinate {
+                    row: 1,
+                    col: 38,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 40,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 1,
+                    col: 40,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "testing",
+                ),
+                start: Coordinate {
+                    row: 2,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 7,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 2,
+                    col: 7,
+                },
+                end: Coordinate {
+                    row: 3,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Import,
+                ),
+                start: Coordinate {
+                    row: 3,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 3,
+                    col: 6,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 3,
+                    col: 6,
+                },
+                end: Coordinate {
+                    row: 4,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Function,
+                ),
+                start: Coordinate {
+                    row: 4,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 4,
+                    col: 8,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 4,
+                    col: 8,
+                },
+                end: Coordinate {
+                    row: 5,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "keyword",
+                ),
+                start: Coordinate {
+                    row: 5,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 5,
+                    col: 7,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 5,
+                    col: 7,
+                },
+                end: Coordinate {
+                    row: 6,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Protocol,
+                ),
+                start: Coordinate {
+                    row: 6,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 6,
+                    col: 8,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 6,
+                    col: 8,
+                },
+                end: Coordinate {
+                    row: 7,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Public,
+                ),
+                start: Coordinate {
+                    row: 7,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 7,
+                    col: 6,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 7,
+                    col: 6,
+                },
+                end: Coordinate {
+                    row: 8,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "hello",
+                ),
+                start: Coordinate {
+                    row: 8,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 8,
+                    col: 5,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 8,
+                    col: 5,
+                },
+                end: Coordinate {
+                    row: 9,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    For,
+                ),
+                start: Coordinate {
+                    row: 9,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 9,
+                    col: 3,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 9,
+                    col: 3,
+                },
+                end: Coordinate {
+                    row: 10,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    If,
+                ),
+                start: Coordinate {
+                    row: 10,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 10,
+                    col: 2,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 10,
+                    col: 2,
+                },
+                end: Coordinate {
+                    row: 11,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Else,
+                ),
+                start: Coordinate {
+                    row: 11,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 11,
+                    col: 4,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 11,
+                    col: 4,
+                },
+                end: Coordinate {
+                    row: 12,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Match,
+                ),
+                start: Coordinate {
+                    row: 12,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 12,
+                    col: 5,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 12,
+                    col: 5,
+                },
+                end: Coordinate {
+                    row: 13,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Implement,
+                ),
+                start: Coordinate {
+                    row: 13,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 13,
+                    col: 9,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 13,
+                    col: 9,
+                },
+                end: Coordinate {
+                    row: 14,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "goodbye",
+                ),
+                start: Coordinate {
+                    row: 14,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 14,
+                    col: 7,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 14,
+                    col: 7,
+                },
+                end: Coordinate {
+                    row: 15,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Module,
+                ),
+                start: Coordinate {
+                    row: 15,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 15,
+                    col: 6,
+                },
+            },
+        ],
+    },
+)

@@ -1,7 +1,9 @@
 mod coordinate;
+mod keyword;
 mod kind;
 
 pub use coordinate::Coordinate;
+pub use keyword::Keyword;
 pub use kind::TokenKind;
 
 /// Represents a semantic value in a file containing Iron source code.

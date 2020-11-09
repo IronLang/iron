@@ -1,0 +1,7 @@
+// Greets a person based on their name.
+//
+// Parameter name: The name of the person to greet.
+// Returns: A greeting with the provided name.
+public function greet(name: String): String {
+	return "Hello, {name}!"
+}

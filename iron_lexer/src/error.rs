@@ -1,6 +1,6 @@
 use std::io;
 
-/// An error that can occur while compiling an Iron module.
+/// An error that can occur while lexing an Iron module.
 #[derive(Debug)]
 pub enum Error {
     /// Indicates an issue with reading from or writing to a file.

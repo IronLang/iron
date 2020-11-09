@@ -1,0 +1,13 @@
+public type HTTPError = {
+	bodyNotAllowed
+	contentLength
+	headerTooLong
+	hijacked
+	missingBoundary
+	missingContentLength
+	notMultipart
+	notSupported
+	shortBody
+	unexpectedTrailer
+	writeAfterFlush
+}

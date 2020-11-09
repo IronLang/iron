@@ -1,0 +1,15 @@
+public protocol ExpressableWithBooleanLiteral {}
+
+public protocol ExpressableWithI8Literal {}
+public protocol ExpressableWithI16Literal {}
+public protocol ExpressableWithI32Literal {}
+public protocol ExpressableWithI64Literal {}
+public protocol ExpressableWithI128Literal {}
+public protocol ExpressableWithIntLiteral {}
+
+public protocol ExpressableWithU8Literal {}
+public protocol ExpressableWithU16Literal {}
+public protocol ExpressableWithU32Literal {}
+public protocol ExpressableWithU64Literal {}
+public protocol ExpressableWithU128Literal {}
+public protocol ExpressableWithUntLiteral {}

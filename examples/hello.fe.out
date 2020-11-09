@@ -1,0 +1,379 @@
+Ok(
+    Module {
+        path: "examples/hello.fe",
+        tokens: [
+            Token {
+                kind: Comment(
+                    "// Greets a person based on their name.",
+                ),
+                start: Coordinate {
+                    row: 0,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 0,
+                    col: 39,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 0,
+                    col: 39,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Public,
+                ),
+                start: Coordinate {
+                    row: 1,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 6,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 6,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 7,
+                },
+            },
+            Token {
+                kind: Keyword(
+                    Function,
+                ),
+                start: Coordinate {
+                    row: 1,
+                    col: 7,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 15,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 15,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 16,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "greet",
+                ),
+                start: Coordinate {
+                    row: 1,
+                    col: 16,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 21,
+                },
+            },
+            Token {
+                kind: ParenOpen,
+                start: Coordinate {
+                    row: 1,
+                    col: 21,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 22,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "name",
+                ),
+                start: Coordinate {
+                    row: 1,
+                    col: 22,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 26,
+                },
+            },
+            Token {
+                kind: Colon,
+                start: Coordinate {
+                    row: 1,
+                    col: 26,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 27,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 27,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 28,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "String",
+                ),
+                start: Coordinate {
+                    row: 1,
+                    col: 28,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 34,
+                },
+            },
+            Token {
+                kind: ParenClose,
+                start: Coordinate {
+                    row: 1,
+                    col: 34,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 35,
+                },
+            },
+            Token {
+                kind: Colon,
+                start: Coordinate {
+                    row: 1,
+                    col: 35,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 36,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 36,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 37,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "String",
+                ),
+                start: Coordinate {
+                    row: 1,
+                    col: 37,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 43,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 1,
+                    col: 43,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 44,
+                },
+            },
+            Token {
+                kind: BraceOpen,
+                start: Coordinate {
+                    row: 1,
+                    col: 44,
+                },
+                end: Coordinate {
+                    row: 1,
+                    col: 45,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 1,
+                    col: 45,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: Tab,
+                start: Coordinate {
+                    row: 2,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 1,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "return",
+                ),
+                start: Coordinate {
+                    row: 2,
+                    col: 1,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 7,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 2,
+                    col: 7,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 8,
+                },
+            },
+            Token {
+                kind: QuoteDouble,
+                start: Coordinate {
+                    row: 2,
+                    col: 8,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 9,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "Hello",
+                ),
+                start: Coordinate {
+                    row: 2,
+                    col: 9,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 14,
+                },
+            },
+            Token {
+                kind: Space,
+                start: Coordinate {
+                    row: 2,
+                    col: 14,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 15,
+                },
+            },
+            Token {
+                kind: BraceOpen,
+                start: Coordinate {
+                    row: 2,
+                    col: 15,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 16,
+                },
+            },
+            Token {
+                kind: Identifier(
+                    "name",
+                ),
+                start: Coordinate {
+                    row: 2,
+                    col: 16,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 20,
+                },
+            },
+            Token {
+                kind: BraceClose,
+                start: Coordinate {
+                    row: 2,
+                    col: 20,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 21,
+                },
+            },
+            Token {
+                kind: Exclamation,
+                start: Coordinate {
+                    row: 2,
+                    col: 21,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 22,
+                },
+            },
+            Token {
+                kind: QuoteDouble,
+                start: Coordinate {
+                    row: 2,
+                    col: 22,
+                },
+                end: Coordinate {
+                    row: 2,
+                    col: 23,
+                },
+            },
+            Token {
+                kind: Newline,
+                start: Coordinate {
+                    row: 2,
+                    col: 23,
+                },
+                end: Coordinate {
+                    row: 3,
+                    col: 0,
+                },
+            },
+            Token {
+                kind: BraceClose,
+                start: Coordinate {
+                    row: 3,
+                    col: 0,
+                },
+                end: Coordinate {
+                    row: 3,
+                    col: 1,
+                },
+            },
+        ],
+    },
+)

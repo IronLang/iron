@@ -1,7 +1,10 @@
 [workspace]
 
 members = [
+    "iron_codegen",
     "iron_lexer",
     "iron_parser",
     "forge"
 ]
+
+default-members = ["forge"]
