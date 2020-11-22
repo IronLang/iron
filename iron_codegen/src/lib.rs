@@ -1,9 +1,11 @@
-//! Generate IR and machine code from Iron ASTs.
+mod error;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
+pub use error::IronCodegenError;
+use iron_ast::IronASTNode;
+
+/// Trait required for Iron compiler backends.
+///
+///
+pub trait IronCompilerBackend {
+    fn compile_module(ast: IronASTNode) -> Result<(), IronCodegenError>;
 }

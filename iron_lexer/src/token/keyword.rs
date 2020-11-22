@@ -2,8 +2,12 @@ use std::fmt;
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub enum Keyword {
+    /// `async
+    Async,
     /// `else`
     Else,
+    // `false`
+    False,
     /// `for`
     For,
     /// `function`
@@ -22,6 +26,10 @@ pub enum Keyword {
     Protocol,
     /// `public`
     Public,
+    /// `return`
+    Return,
+    /// `true`
+    True,
     /// `type`
     Type,
 }
@@ -32,7 +40,9 @@ impl fmt::Display for Keyword {
             f,
             "{}",
             match self {
+                Keyword::Async => "async",
                 Keyword::Else => "else",
+                Keyword::False => "false",
                 Keyword::For => "for",
                 Keyword::Function => "function",
                 Keyword::If => "if",
@@ -42,6 +52,8 @@ impl fmt::Display for Keyword {
                 Keyword::Module => "module",
                 Keyword::Protocol => "protocol",
                 Keyword::Public => "public",
+                Keyword::Return => "return",
+                Keyword::True => "true",
                 Keyword::Type => "type",
             }
         )
@@ -55,7 +67,9 @@ mod tests {
     #[test]
     /// Ensures that the `fmt::Display` trait is implemented correctly.
     fn display_impl() {
+        assert_eq!(Keyword::Async.to_string(), "async");
         assert_eq!(Keyword::Else.to_string(), "else");
+        assert_eq!(Keyword::False.to_string(), "false");
         assert_eq!(Keyword::For.to_string(), "for");
         assert_eq!(Keyword::Function.to_string(), "function");
         assert_eq!(Keyword::If.to_string(), "if");
@@ -65,9 +79,13 @@ mod tests {
         assert_eq!(Keyword::Module.to_string(), "module");
         assert_eq!(Keyword::Protocol.to_string(), "protocol");
         assert_eq!(Keyword::Public.to_string(), "public");
+        assert_eq!(Keyword::Return.to_string(), "return");
+        assert_eq!(Keyword::True.to_string(), "true");
         assert_eq!(Keyword::Type.to_string(), "type");
 
+        assert_eq!(Keyword::Async.to_string().len(), 5);
         assert_eq!(Keyword::Else.to_string().len(), 4);
+        assert_eq!(Keyword::False.to_string().len(), 5);
         assert_eq!(Keyword::For.to_string().len(), 3);
         assert_eq!(Keyword::Function.to_string().len(), 8);
         assert_eq!(Keyword::If.to_string().len(), 2);
@@ -77,6 +95,8 @@ mod tests {
         assert_eq!(Keyword::Module.to_string().len(), 6);
         assert_eq!(Keyword::Protocol.to_string().len(), 8);
         assert_eq!(Keyword::Public.to_string().len(), 6);
+        assert_eq!(Keyword::Return.to_string().len(), 6);
+        assert_eq!(Keyword::True.to_string().len(), 4);
         assert_eq!(Keyword::Type.to_string().len(), 4);
     }
 }

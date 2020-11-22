@@ -17,7 +17,7 @@ fn main() {
         .get_matches();
 
     let path = matches.value_of("INPUT").expect("expected INPUT");
-    let module = Module::from_str(path).expect("module should be parsed successfully");
+    let _module = Module::from_str(path).expect("module should be parsed successfully");
 
-    println!("{:#?}", module);
+    // println!("{:#?}", module);
 }

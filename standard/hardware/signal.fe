@@ -1,0 +1,5 @@
+// Represents a digital signal.
+public type Signal {
+	high
+	low
+}

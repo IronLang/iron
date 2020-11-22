@@ -1,0 +1,11 @@
+use super::{not, Signal}
+
+public type Clock = {
+	state: Signal
+}
+
+implement Clock {
+	public function tick(self) {
+		self.state = not(self.state)
+	}
+}

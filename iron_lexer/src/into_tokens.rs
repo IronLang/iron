@@ -99,6 +99,12 @@ fn consume_chars(chars: &mut Peekable<Chars>, result: &mut Vec<Token>, position:
                                     result,
                                     position,
                                 ),
+                                "false" => consume(
+                                    TokenKind::Keyword(Keyword::False),
+                                    chars,
+                                    result,
+                                    position,
+                                ),
                                 "for" => consume(
                                     TokenKind::Keyword(Keyword::For),
                                     chars,
@@ -149,6 +155,12 @@ fn consume_chars(chars: &mut Peekable<Chars>, result: &mut Vec<Token>, position:
                                 ),
                                 "public" => consume(
                                     TokenKind::Keyword(Keyword::Public),
+                                    chars,
+                                    result,
+                                    position,
+                                ),
+                                "true" => consume(
+                                    TokenKind::Keyword(Keyword::True),
                                     chars,
                                     result,
                                     position,
