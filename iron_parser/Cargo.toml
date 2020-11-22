@@ -6,4 +6,5 @@ edition = "2018"
 
 [dependencies]
 clap = "2.33.3"
+iron_ast = { path = "../iron_ast" }
 iron_lexer = { path = "../iron_lexer" }

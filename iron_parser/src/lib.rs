@@ -6,6 +6,7 @@ mod op;
 pub use module::Module;
 
 use error::Error;
+use iron_ast;
 use iron_lexer::{Keyword, Token, TokenKind};
 use std::iter::Peekable;
 use std::vec::IntoIter;
@@ -25,10 +26,10 @@ pub fn parse_tokens(tokens: Vec<Token>) -> Result<(), Error> {
 /// 4. Protocols
 /// 5. Implementations
 ///
-///
 fn parse(tokens: &mut Peekable<IntoIter<Token>>) {
     match tokens.peek() {
         Some(token) => match token.kind {
+            TokenKind::Comment(_) => (), // ignore for now
             TokenKind::Keyword(keyword) => match keyword {
                 Keyword::Public => parse_public_definition(tokens),
                 Keyword::Function => parse_function(tokens),

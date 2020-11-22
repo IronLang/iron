@@ -1,4 +1,4 @@
-<img src=".github/assets/logo.svg" alt="Iron logo" height="64px">
+<img src=".github/assets/logo.svg" alt="Iron logo" height="128px">
 
 # The Iron Programming Language
 
@@ -9,24 +9,36 @@
 
 Iron is not production-ready by any means, but is actively being built in the open. I welcome anyone interested in shaping its future.
 
+## Hello, world!
+
 Iron takes inspiration from Rust, as well as other modern languages including Go, Swift, and TypeScript. Below is an example "hello world" program.
 
 ```iron
-import io
+import "io"
+
+// Represents a color.
+type RGB (U8, U8, U8)
 
 // Represents a person.
-type Person = {
-	// The name of the person.
-	name: String
+type Person {
+	name          String
+	favoriteColor RGB?
 }
 
-// Greets someone based on their name.
-function greet(person: Person): String => "Hello, {person.name}!"
+implement Person {
+	// Returns a string introducing the `Person`.
+	introduce(self Self) String {
+		"Hi, my name is ${self.name}!"
+	}
+}
 
-function main {
-	let person = Person{ name: "J. Doe" }
-	io.print(greet(person)) // prints "Hello, J. Doe!"
+function main() {
+	let name = "Sam"
+	let favoriteColor = (0, 122, 255)
+	let author = Person{name, favoriteColor}
+
+	io.print(line: author.introduce())
 }
 ```
 
-The language strives to maintain a minimal feature surface area, and will provide opionated libraries for building production-quality software at scale.
+Iron aims to maintain a small conceptual surface area. This is reinforced with other language decisions that get out of your way and guide you toward code that "just works."

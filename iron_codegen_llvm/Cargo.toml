@@ -1,0 +1,10 @@
+[package]
+name = "iron_codegen_llvm"
+version = "0.1.0"
+authors = ["Samuel Roth <samuel.roth@vita.dev>"]
+edition = "2018"
+
+[dependencies]
+iron_ast = { path = "../iron_ast" }
+iron_codegen = { path = "../iron_codegen" }
+inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm9-0"] }

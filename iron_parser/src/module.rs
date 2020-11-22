@@ -29,10 +29,11 @@ impl FromStr for Module {
 
         match iron_lexer::tokenize_file(s) {
             Ok(tokens) => {
-                match parse_tokens(tokens) {
-                    Ok(_) => println!("parsed okay!"),
-                    Err(_) => return Err(LexerError::UnsupportedCharacterEncoding),
-                }
+                println!("{:#?}", tokens);
+                // match parse_tokens(tokens) {
+                //     Ok(_) => println!("parsed okay!"),
+                //     Err(_) => return Err(LexerError::UnsupportedCharacterEncoding),
+                // }
 
                 Ok(Module { path })
             }
