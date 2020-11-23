@@ -1,8 +1,10 @@
+use iron_ast::IronASTNode;
 use std::{error::Error, fmt};
 
 #[derive(Debug)]
 pub enum IronCodegenError {
-    Unexpected,
+    Unknown,
+    UnexpectedASTNode(IronASTNode),
 }
 
 impl fmt::Display for IronCodegenError {
@@ -11,7 +13,8 @@ impl fmt::Display for IronCodegenError {
             f,
             "{}",
             match self {
-                IronCodegenError::Unexpected => "unexpected",
+                IronCodegenError::UnexpectedASTNode(_) => "unexpected AST node",
+                IronCodegenError::Unknown => "unknown",
             }
         )
     }

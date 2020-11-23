@@ -8,4 +8,7 @@ edition = "2018"
 
 [dependencies]
 clap = "2.33.3"
+iron_ast = { path = "../iron_ast" }
 iron_parser = { path = "../iron_parser" }
+iron_codegen = { path = "../iron_codegen" }
+iron_codegen_llvm = { path = "../iron_codegen_llvm" }

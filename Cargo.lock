@@ -88,6 +88,9 @@ name = "forge"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "iron_ast",
+ "iron_codegen",
+ "iron_codegen_llvm",
  "iron_parser",
 ]
 

@@ -1,5 +1,6 @@
 use std::collections::HashMap;
 
+#[derive(Debug)]
 pub enum Operator {
     Add,
     Sub,
@@ -9,6 +10,7 @@ pub enum Operator {
 }
 
 /// Represents a node in an Iron abstract syntax tree (AST).
+#[derive(Debug)]
 pub enum IronASTNode {
     Identifier(String),
 
@@ -205,6 +207,8 @@ pub enum IronASTNode {
 
     /// Represents an Iron module.
     Module {
+        /// Identifier for the module.
+        identifier: String,
         /// Module-level function definitions.
         functions: HashMap<String, IronASTNode>,
     },
@@ -241,6 +245,9 @@ mod tests {
         functions.insert("hello".to_string(), hello);
 
         // Create the module.
-        let _module: IronASTNode = IronASTNode::Module { functions };
+        let _module: IronASTNode = IronASTNode::Module {
+            identifier: "hello".to_string(),
+            functions,
+        };
     }
 }

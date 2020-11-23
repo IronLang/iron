@@ -7,5 +7,5 @@ use iron_ast::IronASTNode;
 ///
 ///
 pub trait IronCompilerBackend {
-    fn compile_module(ast: IronASTNode) -> Result<(), IronCodegenError>;
+    fn compile_module(&mut self, ast: IronASTNode) -> Result<(), IronCodegenError>;
 }
